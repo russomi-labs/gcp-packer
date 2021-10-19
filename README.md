@@ -1,4 +1,4 @@
-# Project Title
+# gcp-packer
 
 ## Table of Contents
 
@@ -9,13 +9,13 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Baking images for Google Compute Engine with Packer.
 
 ## Getting Started <a name = "getting_started"></a>
 
 You can [create](https://cli.github.com/manual/gh_repo_create) a new repo using this template via the `gh` cli:
 
-``` bash
+```bash
 # gh repo create [<name>] [flags]
 gh repo create gitops-labs/my-repo \
     --template gitops-labs/template
@@ -25,7 +25,7 @@ gh repo create gitops-labs/my-repo \
 
 What things you need to install the software and how to install them.
 
-``` bash
+```bash
 brew install gh
 ```
 
@@ -50,3 +50,7 @@ End with an example of getting some data out of the system or using it for a lit
 ## Usage <a name = "usage"></a>
 
 Add notes about how to use the system.
+
+## Resources
+
+- https://www.packer.io/docs/builders/googlecompute
