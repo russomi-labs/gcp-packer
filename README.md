@@ -10,7 +10,7 @@ Baking images for Google Compute Engine with Packer.
 
 ## Getting Started
 
-In order to get started, you need to install [Packer](https://packer.io) and the clone the configuration in this repo.
+In order to get started, you need to install [Packer](https://packer.io), [Docker](https://docs.docker.com/get-docker/) and then clone the configuration in this repo.
 
 ### Prerequisites
 
@@ -24,6 +24,8 @@ brew install hashicorp/tap/packer
 # Upgrade to the latest version
 brew upgrade hashicorp/tap/packer
 ```
+
+See [Installing Docker](https://docs.docker.com/get-docker/) for details on how to install Docker.
 
 ### Installing
 
@@ -41,3 +43,4 @@ Add notes about how to use the system.
 
 - https://www.packer.io/docs/builders/googlecompute
 - https://learn.hashicorp.com/tutorials/packer/get-started-install-cli
+- https://learn.hashicorp.com/packer
