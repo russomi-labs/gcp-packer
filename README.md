@@ -2,55 +2,48 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [About](#about)
-- [Getting Started](#getting_started)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installing](#installing)
 - [Usage](#usage)
-- [Contributing](CONTRIBUTING.md)
+- [Resources](#resources)
 
-## About <a name = "about"></a>
+## About
 
 Baking images for Google Compute Engine with Packer.
 
-## Getting Started <a name = "getting_started"></a>
+## Getting Started
 
-You can [create](https://cli.github.com/manual/gh_repo_create) a new repo using this template via the `gh` cli:
-
-```bash
-# gh repo create [<name>] [flags]
-gh repo create gitops-labs/my-repo \
-    --template gitops-labs/template
-```
+In order to get started, you need to install [Packer](https://packer.io) and the configuration in this repo.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+See [Installing Packer](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli#installing-packer) for details on how to install and upgrade.
 
 ```bash
-brew install gh
+# Install with Homebrew
+brew tap hashicorp/tap
+brew install hashicorp/tap/packer
+
+# Upgrade to the latest version
+brew upgrade hashicorp/tap/packer
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
+```bash
+git clone https://github.com/russomi/gcp-packer.git
+cd gcp-packer
+packer init .
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
+## Usage
 
 Add notes about how to use the system.
 
 ## Resources
 
 - https://www.packer.io/docs/builders/googlecompute
+- https://learn.hashicorp.com/tutorials/packer/get-started-install-cli
