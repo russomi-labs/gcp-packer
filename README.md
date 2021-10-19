@@ -1,15 +1,12 @@
 # gcp-packer
 
-- [About](#about)
+Baking images for Google Compute Engine with Packer.
+
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installing](#installing)
 - [Usage](#usage)
 - [Resources](#resources)
-
-## About
-
-Baking images for Google Compute Engine with Packer.
 
 ## Getting Started
 
