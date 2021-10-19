@@ -16,7 +16,7 @@ Baking images for Google Compute Engine with Packer.
 
 ## Getting Started
 
-In order to get started, you need to install [Packer](https://packer.io) and the configuration in this repo.
+In order to get started, you need to install [Packer](https://packer.io) and the clone the configuration in this repo.
 
 ### Prerequisites
 
