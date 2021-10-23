@@ -44,3 +44,4 @@ Add notes about how to use the system.
 - https://www.packer.io/docs/builders/googlecompute
 - https://learn.hashicorp.com/tutorials/packer/get-started-install-cli
 - https://learn.hashicorp.com/packer
+- [Learn to Provision Terraform Infrastructure using Packer & Cloud-Init](https://www.hashicorp.com/blog/provision-terraform-infrastructure-using-packer-and-cloud-init)
